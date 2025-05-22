@@ -55,7 +55,7 @@ const initApp = () => {
         newProduct.classList.add("item");
         // 作成したdivに配置する要素を生成
         newProduct.innerHTML = `
-            <a href="/detail.html?id=${product.id}">
+            <a href="./detail.html?id=${product.id}">
                 <img src="${product.img}"/>
             </a>
             <h2>${product.name}</h2>
